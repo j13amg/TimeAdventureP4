@@ -1,0 +1,17 @@
+html, body {
+  color: #000000;
+  margin: auto;
+  padding: auto;
+cursor: url("img/TimeAdventure.png"), auto;
+}
+canvas {
+  position: relative;
+}
+
+#snail {
+  display: block;
+  position: absolute;
+  width: 08%;
+  margin-right: 25%;
+  margin-bottom: 50%;
+}
