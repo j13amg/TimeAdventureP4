@@ -1,11 +1,11 @@
 //got code help from https://genekogan.com/code for color changes
 
 var wavy;
-var cursor;
+//var cursor;
 
 function preload() {
   wavy = loadImage("img/wavy.jpeg");
-  cursor = loadImage('img/TimeAdventure.png')
+  //cursor = loadImage('img/TimeAdventure.png')
 }
 
 function setup() {
@@ -19,7 +19,7 @@ function draw() {
   if (frameCount % 30 == 0) {
     fill(random(189, 152, 224), random(117, 84, 174), random(224, 214, 255));
   }
-  image(cursor,mouseX,mouseY,100,100);
+  //image(cursor,mouseX,mouseY,100,100);
 }
 
 function mouseClicked() {
