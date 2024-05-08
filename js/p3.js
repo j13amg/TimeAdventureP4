@@ -1,4 +1,6 @@
 //code help from https://cratecode.com/info/p5js-text-effects
+//snail png from https://adventuretimesuperfans.fandom.com/wiki/Snail
+//background image from Adobe Stock
 
 var space;
 var cursor;
@@ -51,5 +53,5 @@ function draw() {
     let y = 550 + sin(frameCount * 0.1 + i) * 50;
     text(message2.charAt(i), x, y);
   }
-  image(cursor,mouseX,mouseY,150,100);
+  image(cursor,mouseX,mouseY,150,150);
 }

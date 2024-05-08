@@ -2,8 +2,8 @@ html, body {
   color: #000000;
   margin: auto;
   padding: auto;
-cursor: url("img/TimeAdventure.png"), auto;
 }
+
 
 #snail {
   position: absolute;
@@ -14,5 +14,7 @@ cursor: url("img/TimeAdventure.png"), auto;
 
 canvas {
   position: relative;
+  margin: auto;
+  padding: auto;
 }
 

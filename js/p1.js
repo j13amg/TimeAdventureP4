@@ -1,4 +1,6 @@
 //got wavy text code from https://editor.p5js.org/illus0r/sketches/m_1lNsw9s
+//snail png from https://adventuretimesuperfans.fandom.com/wiki/Snail
+//background image from Adobe Stock
 
 var clock;
 var cursor;
