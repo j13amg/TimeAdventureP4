@@ -5,14 +5,12 @@ var cursor;
 
 function preload() {
   clock = loadImage("img/clock.jpeg");
-  cursor = loadImage('img/TimeAdventure.png')
+  cursor = loadImage('img/TimeAdventure.png');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background
   imageMode(CENTER);
-
   fill(151, 53, 255);
   stroke(255);
   strokeWeight(1);
@@ -38,5 +36,5 @@ function draw() {
       pop();
     }
   }
-  image(cursor,mouseX,mouseY,100,100);
+  image(cursor,mouseX,mouseY,150,150);
 }

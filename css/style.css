@@ -4,14 +4,15 @@ html, body {
   padding: auto;
 cursor: url("img/TimeAdventure.png"), auto;
 }
+
+#snail {
+  position: absolute;
+  width: 10%;
+  left: 90%;
+  top: 80%;
+}
+
 canvas {
   position: relative;
 }
 
-#snail {
-  display: block;
-  position: absolute;
-  width: 08%;
-  margin-right: 25%;
-  margin-bottom: 50%;
-}

@@ -51,5 +51,5 @@ function draw() {
     let y = 550 + sin(frameCount * 0.1 + i) * 50;
     text(message2.charAt(i), x, y);
   }
-  image(cursor,mouseX,mouseY,100,100);
+  image(cursor,mouseX,mouseY,150,100);
 }
